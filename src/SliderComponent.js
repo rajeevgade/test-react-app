@@ -23,18 +23,6 @@ class SliderComponent extends React.Component {
       });
     };
   
-    onMinChange = e => {
-      this.setState({
-        min: +e.target.value || this.state.min,
-      });
-    };
-  
-    onMaxChange = e => {
-      this.setState({
-        max: +e.target.value || this.state.max,
-      });
-    };
-  
     render() {
       return (
         <div>
